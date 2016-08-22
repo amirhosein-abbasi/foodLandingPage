@@ -1,11 +1,11 @@
 
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss";
-
+@import 'fonts';
 $nav-color : #BE2B2A ;
 $white-text : #FFFFFF ;
 $info-color : #B34F4F ;
 body {
-  font-family: "Yekan", Helvetica, Arial, sans-serif;
+  font-family: IRANSans ;
   font-weight: 100 ;
   direction: rtl;
   width: 100%;

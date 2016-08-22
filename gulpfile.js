@@ -22,7 +22,8 @@ var lessPaths = [
 
 elixir(function(mix) {
     mix.sass([
-        'page.scss'
+        'page.scss' ,
+        '_fonts.scss'
     ], 'public/css/page.css' )
 
 
