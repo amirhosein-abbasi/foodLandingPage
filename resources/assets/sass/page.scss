@@ -1,0 +1,154 @@
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+
+$nav-color : #BE2B2A ;
+$white-text : #FFFFFF ;
+$info-color : #B34F4F ;
+body {
+  font-family: "Yekan", Helvetica, Arial, sans-serif;
+  font-weight: 100 ;
+  direction: rtl;
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  padding: 0px;
+  width: 100%;
+}
+.container-fluid {
+  padding: 0px;
+  width: 100%;
+}
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+.mynav {
+    background-color: $nav-color;
+    padding: 0px ;
+     margin: 0px;
+  color:$white-text;
+    li {
+      padding-top: 20px;
+      padding-bottom: 16px ;
+      padding-left: 3px;
+      padding-right: 3px;
+      color:$white-text;
+    }
+   a{
+     color:$white-text;
+   }
+  img {
+    width: 100px;
+    height: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px ;
+  }
+  .navbar-header {
+    width:80px
+  }
+}
+  .intro
+  {
+    width: 100%;
+    .container-full {
+      width: 100% ;
+      padding: 0px;
+      margin: 0px;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      //background-position: center center;
+      background-image:url("../uploads/bg_red.jpg");
+    }
+    .col-xs-6 {
+      padding-right: 50px;
+    }
+    img {
+      padding-top: 15px;
+      padding-bottom: 50px;
+    }
+    h1 {
+      color: $white-text ;
+      font-family: Yekan;
+      font-size: 55px;
+    }
+    h2 {
+      color: #652222 ;
+    }
+    P {
+      color: #FFFFFF;
+      font-size: 18px ;
+    }
+  }
+  .info {
+    width: 100%;
+    .row {
+      padding: 0px;
+      margin: 0px;
+    }
+    .info-top {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      width: 100%;
+      .info-item {
+        i {
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+        .info-title {
+          font-family: inherit;
+          font-weight: 500;
+          color: $info-color;
+        }
+        .info-content {
+          color: #DCALLB;
+        }
+      }
+
+    }
+    hr {
+      margin-top: 65px;
+      margin-bottom: 55px;
+      border-width: 1px;
+      border-color:$info-color ;
+    }
+    .info-down {
+      .info-down-img {
+        padding-bottom: 0px ;
+        margin-bottom: 0px ;
+      }
+
+      .info-down-title {
+        color: $info-color;
+        padding-right:50px ;
+      }
+      .info-down-content {
+        font-size: 20px;
+        padding-right:50px ;
+       }
+    }
+  }
+  .others {
+    width: 100%;
+    color: $white-text;
+      width: 100% ;
+      padding: 0px;
+      margin: 0px;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      //background-position: center center;
+      background-image:url("../uploads/bg_red.jpg");
+
+    .container-full {
+      padding-top: 30px;
+      padding-bottom: 60px;
+    }
+    .others-items{
+      padding-bottom: 30px;
+    }
+    h1 {
+      padding-bottom: 25px;
+    }
+  }
+
+
