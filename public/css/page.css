@@ -5887,4 +5887,88 @@ body {
   .others h1 {
     padding-bottom: 25px; }
 
+.sign {
+  background-color: #be2b2a; }
+  .sign img {
+    height: 20px;
+    width: 20px; }
+  .sign .container_links {
+    padding-bottom: 50px;
+    background-color: #be2b2a; }
+  .sign .row_links {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-right: 340px;
+    padding-left: 340px;
+    color: white;
+    background-color: #be2b2a; }
+  .sign .link {
+    color: white; }
+  .sign .link:hover {
+    color: rgba(230, 97, 99, 0.76);
+    text-decoration: none; }
+  .sign .logo {
+    height: 150px;
+    width: 150px; }
+  .sign .col {
+    padding-left: 5px;
+    padding-right: 5px; }
+  .sign .row_social {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .sign .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .sign .text {
+    color: white;
+    padding-bottom: 50px; }
+  .sign .container-full {
+    padding-top: 50px;
+    width: 100%;
+    background-color: #be2b2a; }
+    .sign .container-full .img-responsive {
+      padding-bottom: 5px; }
+    .sign .container-full .form-group {
+      max-width: 200px; }
+    .sign .container-full .btn {
+      width: 200px;
+      color: #be2b2a; }
+  .sign hr {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-color: white; }
+  .sign .footer {
+    color: white;
+    margin-right: 25%;
+    padding-bottom: 50px; }
+
+.gallery .gal_row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.gallery .col {
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.gallery img {
+  border-radius: 10px; }
+
+.gallery .btn {
+  width: 100px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  margin-left: 5px; }
+
 /*# sourceMappingURL=page.css.map */
