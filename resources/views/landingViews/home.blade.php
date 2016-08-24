@@ -13,8 +13,8 @@
     <link href="css/page.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+
 <nav class="mynav navbar navbar-default">
-    <div class="container-fluid">
         <div class="navbar-header pull-right">
             <a class="navbar-brand" href="#" ></a>
         </div>
@@ -25,12 +25,11 @@
             <a class="navbar-brand" href="#"></a>
         </div>
         <ul class="nav navbar-nav pull-left">
-            <li><a href="#">امکانات</a></li>
-            <li><a href="#">تماس با ما</a></li>
-            <li><a href="#">گالری عکس</a></li>
-            <li><a href="#">درباره برنامه</a></li>
+            <li><a style="color:#FFFFFF " class="nav-item" href="#">امکانات</a></li>
+            <li><a style="color:#FFFFFF" class="nav-item" href="#">تماس با ما</a></li>
+            <li><a style="color:#FFFFFF" class="nav-item" href="#">گالری عکس</a></li>
+            <li><a style="color:#FFFFFF" class="nav-item" href="#">درباره برنامه</a></li>
         </ul>
-    </div>
 </nav>
 
 <div class="container">
@@ -39,10 +38,11 @@
         @include('landingViews.info')
         @include('landingViews.others')
         @include('landingViews.app')
-        {{--@yield('landingViews.QR')--}}
-        {{--@yield('landingViews.gallery')--}}
-        {{--@yield('landingViews.sign')--}}
+        @include('landingViews.QR')
+        @include('landingViews.gallery')
+        @include('landingViews.sign')
     </div>
 </div>
+<script src="js/home.js"></script>
 </body>
 </html>

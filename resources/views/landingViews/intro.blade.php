@@ -1,5 +1,5 @@
-<div class="intro">
-    <div class="container-full">
+
+    <div class="intro container-fluid ">
         <div class="row rtl">
             <div class="col-xs-6 pull-right">
                 <h1 >
@@ -21,4 +21,3 @@
             </div>
         </div>
     </div>
-</div>
