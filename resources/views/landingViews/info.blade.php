@@ -2,7 +2,7 @@
     <div class="info-top">
         <div class="container-fluid center center-block centered ">
             <div class="row">
-                <div class="col-xs-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                     <div class="info-item">
                         <div class="one row">
                             <div class="'col-xs-4">
@@ -15,7 +15,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                     <div class="info-item">
                         <div class="two row">
                             <div class="'col-xs-4">
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                     <div class="info-item">
                         <div class="three row">
                             <div class="'col-xs-4">
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                     <div class="info-item">
                         <div class="one row">
                             <div class="'col-xs-4">
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                     <div class="info-item">
                         <div class="two row">
                             <div class="'col-xs-4">
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                     <div class="info-item">
                         <div class="three row">
                             <div class="'col-xs-4">

@@ -1,18 +1,21 @@
 
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+@import "node_modules/font-awesome/scss/font-awesome.scss";
 @import 'fonts';
 @import 'animate' ;
 $nav-color : #BE2B2A ;
 $white-text : #FFFFFF ;
 $title-color : #B34F4F ;
 body {
-                font-weight: 100 ;
+                font-family: "B Yekan" ;
+                text-align: right;
                 direction: rtl;
                 width: 100%;
                 margin: 0 auto;
+              overflow-x: hidden;
 }
 .container {
-              padding: 0px;
+              padding: 0;
               width: 100%;
 }
 .container-fluid {
@@ -48,8 +51,8 @@ body {
 }
   .intro
   {
-    width: 100%;
-    padding: 0;
+       width: 100%;
+      padding: 0;
     margin: 0 ;
       background-attachment: fixed;
       background-repeat: no-repeat;
@@ -78,8 +81,8 @@ body {
   .info {
     width: 100%;
     .row {
-      padding: 0px;
-      margin: 0px;
+      padding: 0;
+      margin: 0;
     }
     .info-top {
       padding-top: 25px;
@@ -92,7 +95,8 @@ body {
           padding-bottom: 15px;
           }
          i:hover {
-          color: #BE2B2A;
+           transition: 0.5s;
+           color: #BE2B2A;
         }
         .info-title {
           font-weight: 500;
@@ -117,7 +121,7 @@ body {
       }
 
       .info-down-title {
-        color: title-color;
+        color: $title-color;
         padding-right:50px ;
       }
       .info-down-content {
